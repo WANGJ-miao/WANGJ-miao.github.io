@@ -1,16 +1,44 @@
 body {
-    max-width: 800px;
-    margin: 60px auto;
-
-    font-family: sans-serif;
-    line-height: 1.6;
+	background-color: wheat;
+	font-family: monospace;
 }
 
 h1 {
-    font-size: 42px;
+    font-size: 50px;
 		color:aliceblue
 }
 
 p {
     font-size: 18px;
+}
+
+.top-bar {
+	display: flex;
+	align-items: center;
+}
+
+.side {
+	flex: 1;
+	font-size: 30px;
+	color: greenyellow;
+}
+
+.right {
+	text-align: right;
+}
+
+.left {
+	font-weight: bold;
+	text-align: left;
+}
+
+.side {
+	flex: 1;
+}
+
+.title {
+	font-weight: bold;
+	flex: 1.5;
+	text-align: center;
+	font-size: 100px;
 }
