@@ -1,0 +1,16 @@
+body {
+    max-width: 800px;
+    margin: 60px auto;
+
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 42px;
+		color:aliceblue
+}
+
+p {
+    font-size: 18px;
+}
